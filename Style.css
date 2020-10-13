@@ -1,0 +1,154 @@
+/*===========reset css==========*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*============Basic style========*/
+body{
+	color: #fff;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.4;
+  background-color: #020115;
+
+}
+.wrapper{
+	width: 1120px;
+	height: 100%;
+	margin: 0 auto;
+}
+/*==========HEADER=========*/
+.page-header{
+  height: 10%;
+  width: 100%;
+  background: rgba(17, 23, 25, 0.5 );
+  position: absolute;
+  left: 0;
+  top: 0;
+
+
+  }
+.page-header .logo{
+	float: left;
+	padding-top: 23px;
+	box-sizing: border-box;
+  color: #44AEF3;
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+	position: relative;
+	left: 60px;
+
+}
+#Logo{
+	float: left;
+	position: relative;
+  right: 80px;
+	padding-top: 20px;
+}
+.page-header .main-nav{
+	float: right;
+
+}
+
+.main-nav li{
+	float: left;
+	margin-left: 90px;
+  list-style-type: none;
+
+}
+.main-nav li a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 66px;
+
+}
+.main-nav li a:hover {
+	color: #ffff;
+  background-color: #44AEF3;
+	padding: 15px 15px;
+	border-radius: 10px;
+}
+/*========= MAIN =========*/
+/*========= Banner =========*/
+.banner{
+	height: 620px;
+
+	background: url(images/banner.jpg);
+	background-size: cover;
+	padding-top: 230px;
+	box-sizing: border-box;
+	background-attachment: fixed;
+
+}
+
+.banner-block{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+}
+.banner-block p{
+font-size: 20px;
+}
+h1{
+	text-transform: uppercase;
+
+
+}
+.Download{
+  display: block;
+	padding: 20px 30px;
+	color: inherit;
+	text-transform: uppercase;
+	background: #44AEF3;
+	font-size: 14px;
+	text-decoration: none;
+	width: 166px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+.Download:hover {
+  box-shadow: inset 0 0 60px rgba(0,0,0,1);
+	border: 1px solid #44AEF3;
+  color: #44AEF3;
+	opacity: 1;
+}
+.games-header{
+	font-size: 50px;
+  color: #1CCA2C;
+	text-align: center;
+  margin-top: 100px;
+}
+.Games img{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 60px;
+	width: 258px;
+	height: 160px;
+	border-radius: 10px
+
+
+}
+#a{
+ background-image: url(images/baldurs.jpg);
+}
