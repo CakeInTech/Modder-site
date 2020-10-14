@@ -28,6 +28,7 @@ body{
   background-color: #020115;
 
 }
+img { max-width: 100%; height: auto; }
 .wrapper{
 	max-width: 1280px;
 
@@ -90,7 +91,8 @@ body{
 /*========= Banner =========*/
 .banner{
 	height: 620px;
-	background: url(images/banner.jpg);
+
+	background: url(https://raw.githubusercontent.com/MohamedCK/Modder-site/gh-pages/Modder-site2/Images/banner.jpg);
 	background-size: cover;
 	padding-top: 230px;
 	box-sizing: border-box;
