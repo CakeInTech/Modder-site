@@ -29,8 +29,8 @@ body{
 
 }
 .wrapper{
-	width: 1120px;
-	height: 100%;
+	max-width: 1280px;
+
 	margin: 0 auto;
 }
 /*==========HEADER=========*/
@@ -90,7 +90,6 @@ body{
 /*========= Banner =========*/
 .banner{
 	height: 620px;
-
 	background: url(images/banner.jpg);
 	background-size: cover;
 	padding-top: 230px;
@@ -146,25 +145,30 @@ h1{
 	width: 258px;
 	height: 160px;
 	border-radius: 10px
-
-
 }
-#a{
- background-image: url(images/baldurs.jpg);
-}
+
 @media only screen and (max-width:560px){
 	.main-nav{
 		display: none;
 	}
 	#mobile-icon {
-		float: right;
-
+	text-align: right;
+	padding-top: 15px;
  }
  .welcome{
 	 font-size: 35px;
  }
  div p{
 	 font-size: 20px;
+ }
+ .banner{
+ 	height: 500px;
+ 	background: url(images/banner.jpg);
+ 	background-size: cover;
+ 	padding-top: 230px;
+ 	box-sizing: border-box;
+ 	background-attachment: fixed;
+
  }
 }
 @media only screen and (min-width:560px){
