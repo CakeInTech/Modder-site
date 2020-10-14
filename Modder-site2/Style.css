@@ -91,7 +91,7 @@ body{
 .banner{
 	height: 620px;
 
-	background: url(https://github.com/MohamedCK/Modder-site/blob/gh-pages/Modder-site2/Images/banner.jpg?raw=true);
+	background: url(https://raw.githubusercontent.com/MohamedCK/Modder-site/gh-pages/Modder-site2/Images/banner.jpg);
 	background-size: cover;
 	padding-top: 230px;
 	box-sizing: border-box;
