@@ -173,7 +173,7 @@ h1{
  	background-attachment: fixed;
  }
 
- .phone-nav{
+ #phone-nav{
 
 	 position: fixed;
 	 left: 45%;
@@ -181,22 +181,27 @@ h1{
 	 width: 200px;
 
  }
- .phone-nav ul{
+ #phone-nav ul{
 	 list-style-type: none;
 	 background-color: rgb(17, 23, 25);
 	 border-radius: 5px;
  }
- .phone-nav ul li{
+ #phone-nav ul li{
 	 font-family: Aria35
 	 font-size: 20px;
 	 text-align: center;
  }
- .phone-nav ul li a{
+ #phone-nav ul li a{
 	 display: block;
 	 height: 35px;
 	 line-height: 50px;
 	 text-decoration: none;
 	 color: white;
+	 padding-bottom: 10px;
+ }
+ #phone-nav ul li a:hover{
+	 background-color: rgb(1, 140, 237);
+
  }
 }
 @media only screen and (min-width:560px){
