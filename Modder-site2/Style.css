@@ -152,3 +152,24 @@ h1{
 #a{
  background-image: url(images/baldurs.jpg);
 }
+@media only screen and (max-width:560px){
+	.main-nav{
+		display: none;
+	}
+	#mobile-icon {
+		float: right;
+
+ }
+ .welcome{
+	 font-size: 35px;
+ }
+ div p{
+	 font-size: 20px;
+ }
+}
+@media only screen and (min-width:560px){
+  #mobile-icon{
+		display: none;
+
+	}
+}
